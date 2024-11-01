@@ -1,0 +1,407 @@
+@media (min-width: 1199.98px) and (max-width: 1800px) {
+    .wcfusion_module_item_left {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    p.wcfusion_module_docs {
+        position: inherit;
+        margin: 55px auto -20px auto;
+        right: 0;
+    }
+    .wcfusion_module_logo {
+        width: 100%;
+        text-align: center;
+    }
+    .wcfusion_module_settings {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .wcfusion_module_switch {
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 1296.99px) {
+    span.wfaac_edit {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+    .auto_apply_coupon .striped > tbody > :nth-child(2n) span.wfaac_action_icons .wfaac_edit a, 
+    .auto_apply_coupon .striped > tbody > :nth-child(2n+1) span.wfaac_action_icons .wfaac_edit a {
+        padding-right: 0;
+    }
+    .auto_apply_coupon .widefat thead td, 
+    .auto_apply_coupon .widefat thead th {
+        padding: 8px 10px;
+        word-wrap: normal;
+    }
+    .auto_apply_coupon table.dataTable .text-success,
+    .auto_apply_coupon table.dataTable .text-warning {
+        padding: 2px 8px;
+    }
+    .auto_apply_coupon .widefat td {
+        word-wrap: normal;
+    }
+    .auto_apply_coupon .widefat thead th, 
+    .auto_apply_coupon .widget .widget-top {
+        font-size: 13px;
+    }
+    #wcfusion_bogo_deal_header button.wcfusion_add_btn,
+    #wcfusion_bogo_deal_header button.wcfusion_save_btn {
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 1125px) {
+    #wcfusion_coupon_generator_container .wcfusion_col_lg_4 {
+        flex: 1 0 20%;
+    } 
+    #wcfusion_one_click_checkout_dashboard div.label_content {
+        width: 60%;
+    }  
+}
+
+@media (min-width: 991.98px) and (max-width: 1199.98px){
+    .wcfusion_module_filter ul li {
+        padding: 20px 20px 20px 20px;
+    }
+    .wcfusion_module_list_items .wcfusion_module_item{
+        width: 330px;
+    }
+    #wcfusion_floating_cart_dashboard div.label_content {
+        width: 60%;
+    }
+    #wcfusion_pdf_invoice_dashboard div.label_content {
+        width: 60%;
+    }
+    .label_content.shop_logo_label_content {
+        margin-left: 47px;
+    }
+}
+@media only screen and (max-width: 1077.99px) {
+    .tablenav .tablenav-pages {
+        margin: 15px 0 20px;
+    }
+    tbody#the-list tr td strong {
+        word-wrap: normal;
+    }
+    .tablenav .actions {
+        padding: 0 0px 0 0;
+    } 
+    .per_page {
+        margin-right: 5px;
+    }
+}
+@media only screen and (max-width: 1030px) {
+    .wcfusion_header_right {
+        display: flex;
+        flex-direction: column;
+    }
+    #wcfusion_bogo_deal_header button.wcfusion_add_btn,
+    #wcfusion_bogo_deal_header button.wcfusion_save_btn {
+        margin-top: 10px;
+    }
+    .wcfusion_header_left {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .documentation a {
+        margin-left: inherit;
+    }
+    .documentation a.bogo_deal_title {
+        margin-bottom: 17px;
+    }
+    #wcfusion_bogo_deal_header button.wcfusion_add_btn {
+        padding: 13px 75px;
+    }
+    a.wcfusion_header_back {
+        text-align: right;
+    }
+    #wcfusion_coupon_generate_dashboard .coupon_data_left_wrapper .coupon_data_tabs .tab_item h1 {
+        line-height: 24px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .wcfusion_module_filter ul li {
+        padding: 20px 15px 20px 15px;
+        font-size: 17px;
+    }
+    .wcfusion_module_list_items .wcfusion_module_item{
+        width: 40%;
+    }
+    .wcfusion_module_list_items .wcfusion_module_item {
+        padding: 7px 25px 30px;
+    }
+    p.wcfusion_module_docs {
+        bottom: -5px;
+        left: 0;
+    }
+    .wcfusion_module_list_breadcrumb {
+        display: inherit;
+    }
+    .wcfusion_module_filter {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+    .wcfusion_module_search {
+        width: 100%;
+        margin-left: 0px;
+    }
+    #wcfusion_floating_cart_dashboard div.label_content {
+        width: 70%;
+    }
+    .wcfusion_floating_cart_data_tabs .tab_item {
+        padding: 10px 23px;
+    }
+    #wcfusion_pdf_invoice_dashboard div.label_content {
+        width: 60%;
+    }
+    .label_content.shop_logo_label_content {
+        margin-left: 55px;
+    }
+    #wcfusion_product_sticky_bar_dashboard .sticky_settings_bar div.label_content {
+        width: 70%;
+    }
+
+}
+@media only screen and (max-width: 800px) {
+    #wcfusion_coupon_generator_container .wcfusion_col_lg_4 {
+        flex: 1 0 50%;
+    }
+}
+@media screen and (max-width: 782px) {
+    p.search-box {
+        position: inherit;
+        margin-bottom: -15px;
+    }
+    .tablenav .view-switch, .tablenav.top .actions {
+        display: flex;
+    }
+    .alignleft.actions.bulkactions #doaction, #doaction2, #post-query-submit {
+        line-height: inherit;
+        margin-top: inherit;
+        margin-bottom: 20px;
+    }
+    .wp-core-ui .auto_apply_coupon select {
+        margin-bottom: 20px;
+    }
+    input[type=checkbox], input[type=radio] {
+        height: 1rem;
+        width: 1rem;
+    }
+    .tablenav .tablenav-pages {
+        width: inherit;
+    }
+    .tablenav.top {
+        margin: unset;
+    }
+    .auto_apply_coupon .striped > tbody > :nth-child(2n) span.wfaac_action_icons span.auto_coupon_apply a {
+        margin-left: inherit !important;
+    
+    }
+    .auto_apply_coupon .striped > tbody > :nth-child(2n+1) span.wfaac_action_icons span.auto_coupon_apply a {
+        margin-left: 3px;
+    }
+}
+
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+    .wcfusion_module_list_items .wcfusion_module_item{
+        width: 100%;
+    }
+    .wcfusion_module_list_breadcrumb {
+        display: inherit;
+    }
+    .wcfusion_module_filter {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+    .wcfusion_module_filter ul li {
+        padding: 22px 15px 22px 15px;
+        font-size: 16px;
+    }
+    .wcfusion_module_search {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .wcfusion_module_filter ul li {
+        /* display: inline-block; */
+        padding: 22px 35px 22px 35px;
+        font-size: 18px;
+        color: #050505;
+        font-weight: 400;
+        cursor: pointer;
+        transition: all .3s;
+        position: relative;
+        width: 16.5%;
+        border: 1px solid #ccc;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        text-align: center;
+        margin-right: 5px;
+    }
+    .wcfusion_module_search, .wcfusion_module_filter {
+        background: inherit;
+        border-radius: 5px;
+        border: inherit;
+    }
+    .wcfusion_module_filter ul {
+        align-items: center;
+        justify-content: center;
+    }
+    .documentation a {
+        margin-left: 10px;
+    }
+    #wcfusion_coupon_generate_dashboard .coupon_data_left_wrapper .coupon_data_tabs .tab_item,
+    .sticky_bar_data_tabs .tab_item {
+        padding: 1px 20px;
+    }
+    #wcfusion_coupon_generator_container .wcfusion_col_lg_4{
+        max-width: 100%;
+    }
+    #wcfusion_coupon_generate_dashboard .coupon_tap_body_wrapper .select2-container,
+    #wcfusion_coupon_generate_dashboard #tab_body_form .wcfusion_form_group .wcfusion_text_control {
+        width: 100% !important;
+    }
+    #wcfusion_coupon_generator_container .wcfusion_col_lg_4 {
+        width: 85%;
+    }
+    #wcfusion_coupon_generator_container .wcfusion_row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+    }
+    .product_sticky_bar_right_content {
+        padding: 15px 35px;
+    }
+    .label_title {
+        width: 35%;
+    }
+    #wcfusion_product_sticky_bar_dashboard .sticky_settings_bar div.label_content {
+        width: 65%;
+    }
+    #wcfusion_product_sticky_bar_dashboard .wcfusion_form_group .select2-container {
+        width: 100% !important;
+    }
+    p.search-box {
+        width: 80%;
+    }
+    #wcfusion_coupon_generate_dashboard .coupon_data_left_wrapper .coupon_data_tabs .tab_item h1 {
+        margin-left: -5px;
+        line-height: 24px;
+    }
+    #wcfusion_floating_cart_dashboard div.label_content {
+        width: 65%;
+    }
+    .wcfusion_floating_cart_data_tabs .tab_item {
+        padding: 10px 17px;
+        cursor: pointer;
+    }
+    #wcfusion_pdf_invoice_dashboard div.label_content {
+        width: 60%;
+    }
+    .label_content.shop_logo_label_content {
+        margin-left: 87px;
+    }
+    #wcfusion_pdf_invoice_dashboard .wcfusion_form_group .preview_image {
+        margin-left: 18px;
+    }
+    .wcfusion_pdf_invoice_data_tabs .tab_item {
+        padding: 10px 23px;
+    }
+    .wcfusion_one_click_checkout_data_tabs .tab_item {
+        padding: 10px 20px;
+    }
+}
+@media only screen and (max-width: 575.98px) {
+    .wcfusion_module_list_items .wcfusion_module_item{
+        width: 100%;
+    }
+    .wcfusion_module_list_breadcrumb {
+        display: inherit;
+    }
+    .wcfusion_module_filter {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+    .wcfusion_module_filter ul li {
+        padding: 22px 15px 22px 15px;
+        font-size: 16px;
+    }
+    .wcfusion_module_search {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .wcfusion_module_filter ul li {
+        /* display: inline-block; */
+        display: flex;
+        justify-content: center;
+        padding: 22px 35px 22px 35px;
+        font-size: 18px;
+        color: #050505;
+        font-weight: 400;
+        cursor: pointer;
+        transition: all .3s;
+        position: relative;
+        width: 16.5%;
+        border: 1px solid #ccc;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        text-align: center;
+        margin-right: 5px;
+    }
+    .wcfusion_module_search, .wcfusion_module_filter {
+        background: inherit;
+        border-radius: 5px;
+        border: inherit;
+    }
+    .wcfusion_module_filter ul {
+        align-items: center;
+        justify-content: center;
+    }
+    .documentation a {
+        margin-left: 10px;
+    }
+    .tab_item {
+        padding: 1px 10px !important;
+    }
+    .product_sticky_bar_right_content {
+        padding: 50px 30px;
+    } 
+    #wcfusion_product_sticky_bar_dashboard .wcfusion_form_group .select2-container {
+        width: 85% !important;
+    }
+    #wcfusion_product_sticky_bar_dashboard .sticky_settings_bar div.label_content {
+        width: 75%;
+    }  
+    #wcfusion_floating_cart_dashboard div.label_content {
+        width: 75%;
+    }
+    .wcfusion_floating_cart_left_content {
+        width: 25%;
+    }
+    .wcfusion_one_click_checkout_left_content {
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 465px) {
+    p.wcfusion_module_docs {
+        bottom: -5px;
+        left: 0;
+    }
+    .wcfusion_module_list_items .wcfusion_module_item {
+        padding: 7px 25px 30px;
+    }   
+}
+
+@media only screen and (max-width: 425px) {
+    .wcfusion_module_list_header {
+        flex-direction: column;
+    }
+}

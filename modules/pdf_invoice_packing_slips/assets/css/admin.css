@@ -1,0 +1,875 @@
+/** master admin style for pdf invoice, packing slips**/
+#wcfusion_pdf_invoice_dashboard .mt20 {
+    margin-top: 20px;
+}
+.wcfusion_pdf_invoice_module_list_header{
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 50px;
+    flex-direction: row;
+    column-gap: 10px;
+    box-shadow: 0 13px 22px -5px rgb(0 0 0 / 6%);
+}
+.wcfusion_pdf_invoice_module_left_header p{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px;
+    position: relative;
+}
+.wcfusion_pdf_invoice_module_left_header p span{
+    position: absolute;
+    top: 0;
+    right: -60px;
+    background: #6E32C9;
+    padding: 0px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+}
+.wcfusion_pdf_invoice_module_right_header p{
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+.wcfusion_pdf_invoice_module_right_header p a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    background: #f94017;
+    padding: 10px 25px;
+    border-radius: 3px;
+}
+.wcfusion_pdf_invoice_single_module_title{
+    margin: 20px 53px 0px 53px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    border-bottom: 1px solid #DDD8EE;
+}
+.wcfusion_pdf_invoice_single_module_title h2{
+    font-size: 30px;
+    line-height: 35px;
+    margin: 25px 0;
+}
+#wcfusion_pdf_invoice_container {
+    padding: 50px 50px;
+}
+
+/***************************************************
+    InVOICE PDF STYLE
+**************************************************/
+
+#wcfusion_pdf_invoice_dashboard .d-block{
+    display: block;
+}
+#wcfusion_pdf_invoice_dashboard .select2-container--default .select2-selection--multiple .select2-selection__choice{
+    padding: 5px;
+    padding-left: 20px;
+}
+#wcfusion_pdf_invoice_dashboard .select2-container--default .select2-selection--multiple .select2-selection__choice__remove{
+    top: 3px;
+}
+#wcfusion_pdf_invoice_dashboard .select2-container--default .select2-selection--multiple,
+#wcfusion_pdf_invoice_dashboard .wcfusion_form_group .wcfusion_select_control{
+    padding: 12px 20px;
+    /*margin-top: 20px;*/
+    border-radius: 8px;
+    width: 100%;
+    border: 1px solid #BDCEF1;
+    color:#5b5b5bf5 !important;
+    font-size: 15px !important;
+}
+#wcfusion_pdf_invoice_dashboard .wcfusion_form_group option {
+    font-size: 15px;
+}
+
+/* Start Single module sticky bar */
+#wcfusion_pdf_invoice_dashboard {
+    padding: 30px 0px;
+    border-radius: 10px;
+    padding-top: 10px;
+    position: relative;
+}
+#wcfusion_pdf_invoice_dashboard .content_wrapper{
+    display: flex;
+    padding-top: 5px;
+}
+
+#wcfusion_pdf_invoice_dashboard .tab_body_title{
+    border-bottom: 1px solid #E3E0ED;
+    padding-bottom: 15px;
+}
+#wcfusion_pdf_invoice_dashboard .tab_body_title h1{
+    font-size: 28px;
+    color: #6E32C9;
+    font-weight: 700;
+}
+
+#wcfusion_pdf_invoice_dashboard .tab_body_sub_title{
+    border-bottom: 1px solid #E3E0ED;
+    border-bottom-style: dashed;
+    padding: 15px 0;
+}
+
+#wcfusion_pdf_invoice_dashboard .tab_body_sub_title h4{
+    font-size: 20px;
+    color: #6E32C9;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+}
+
+#wcfusion_pdf_invoice_dashboard .wcfusion_form_group .label_btn {
+
+}
+
+#wcfusion_pdf_invoice_dashboard  .wcfusion_form_group .label_btn .label_btn_upload{
+    padding: 12px 20px;
+    margin: 0px 0 0 20px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid #BDCEF1;
+    background: #6E32C9;
+    color: #fff;
+    cursor: pointer;
+}
+
+#wcfusion_pdf_invoice_dashboard  .wcfusion_form_group .label_btn .label_btn_upload:hover{
+    border: 1px solid #6E32C9;
+    background: transparent;
+    color: #6E32C9;
+    cursor: pointer;
+}
+
+#wcfusion_pdf_invoice_dashboard  .wcfusion_form_group .preview_image{
+    margin-left: 50px;
+}
+
+#wcfusion_pdf_invoice_dashboard  .wcfusion_form_group .preview_image img{
+  height: 51px;
+}
+
+#wcfusion_pdf_invoice_dashboard #tab_body_form .wcfusion_form_group .wcfusion_text_control {
+    width: 50%;
+}
+#wcfusion_pdf_invoice_dashboard #tab_body_form .wcfusion_form_group .wcfusion_select_control {
+    width: 50% !important;
+    max-width: 50%;
+    color:#5b5b5bf5 !important;
+    font-size: 15px !important;
+}
+#wcfusion_pdf_invoice_dashboard #tab_body_form .wcfusion_form_group .wcfusion_select_control option {
+    margin-top: 20px;
+}
+
+#wcfusion_pdf_invoice_dashboard #tab_body_form .wcfusion_form_group .wcfusion_coupon_checkbox {
+    margin-top: 20px;
+}
+#wcfusion_pdf_invoice_dashboard #tab_body_form .wcfusion_form_group .wcfusion_coupon_checkbox .description{
+    font-size: 14px;
+    line-height: 25px;
+}
+#wcfusion_pdf_invoice_dashboard #tab_body_form .wcfusion_form_group .wcfusion_select_control {
+    margin-top: 15px;
+}
+#wcfusion_pdf_invoice_dashboard #tab_body_form .wcfusion_form_group{
+    margin-top: 38px;
+}
+#wcfusion_pdf_invoice_dashboard .coupon_generate_top_form {
+    background-color: #ffff;
+    padding: 30px 2px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+}
+#wcfusion_pdf_invoice_dashboard input[type=radio]:checked {
+    border: 1px solid #316BFF;
+}
+#wcfusion_pdf_invoice_dashboard .wcfusion_form_group input[type=radio]:checked::before {
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 50%;
+    transform: translate(19%,19%);
+    margin: 0;
+    line-height: 0;
+    background-color: #316BFF;
+}
+#wcfusion_pdf_invoice_dashboard .select2-container {
+    display: block;
+}
+
+#wcfusion_pdf_invoice_dashboard .select2-container .select2-selection--single{
+    height: 50px;
+}
+#wcfusion_pdf_invoice_dashboard .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 50px;
+}
+#wcfusion_pdf_invoice_dashboard .select2-container--default .select2-selection--single .select2-selection__arrow {
+    top:13px;
+}
+#wcfusion_pdf_invoice_dashboard .select2-container--default .select2-selection--single,
+#wcfusion_pdf_invoice_dashboard .select2-container--open .select2-dropdown {
+    border: 1px solid #BDCEF1;
+    border-radius: 5px;
+}
+#wcfusion_pdf_invoice_dashboard .select2-container--default .select2-selection--single .select2-selection__arrow b:after {
+    position: relative;
+    content: "\f347";
+    font-family: "dashicons";
+    top: -11px;
+    left: -5px;
+    display: inline-block;
+    transition: all .3s;
+    color: #d3d0d0;
+    font-weight: 200;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+#wcfusion_pdf_invoice_dashboard .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b:after{
+    transform: rotate(180deg);
+    left: -5px;
+    transition: all .3s;
+}
+#wcfusion_pdf_invoice_dashboard .select2-container--default .select2-selection--single .select2-selection__arrow b{
+    border-color: inherit;
+    border-style: inherit;
+    border-width: inherit;
+    height: 0;
+    left: inherit;
+    margin-left: inherit;
+    margin-top: inherit;
+    position: inherit;
+    top: inherit;
+    width: inherit;
+}
+#wcfusion_pdf_invoice_dashboard .wcfusion_pdf_invoice_bottom_form .wcfusion-pi-btn-disabled,
+#wcfusion_pdf_invoice_dashboard .wcfusion_pdf_invoice_bottom_form .wcfusion-pi-btn-disabled:hover {
+    background-color: #ccc;
+    border-color: #ddd;
+    color: #fff;
+    cursor: not-allowed;
+}
+
+#wcfusion_pdf_invoice_dashboard .wcfusion_pdf_invoice_footer {
+    text-align: right;
+}
+
+.wcfusion_pdf_invoice_left_content {
+    width: 20%;
+}
+.wcfusion_pdf_invoice_right_content {
+    width: 80%;
+    background-color: #fff;
+    padding: 50px 60px;
+}
+.wcfusion_pdf_invoice_data_tabs .tab_item{
+    padding: 10px 40px;
+    cursor: pointer;
+    border-bottom: 1px solid #DDD8EE;
+    border-left: 4px solid transparent;
+    transition: .3s;
+}
+.wcfusion_pdf_invoice_data_tabs {
+    border-top: 1px solid #ccc;
+}
+.wcfusion_pdf_invoice_data_tabs .tab_item.tab_item_active{
+    background-color: #FFFF;
+    border-left: 4px solid #6E32C9;
+    transition: .3s;
+}
+.wcfusion_pdf_invoice_data_tabs .tab_item h3{
+    color: #050505;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+}
+.wcfusion_pdf_invoice_data_tabs .tab_item.tab_item_active h3{
+    color: #6E32C9;
+}
+button.wcfusion_pdf_invoice_btn{
+    text-decoration: none;
+    background-color: #6E32C9;
+    padding: 17px 30px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+button.wcfusion_pdf_invoice_btn:hover{
+    border: 1px solid #6E32C9;
+    background: transparent;
+    color: #6E32C9;
+    cursor: pointer;
+}
+.wcfusion_pdf_invoice_btn {
+    text-align: right;
+    margin-top: 30px;
+}
+.wcfusion_form_group input[type=color] {
+    border: inherit;
+    margin: 0px;
+    height: 40px;
+    width: 70px;
+    box-shadow: inherit;
+    border-radius: inherit;
+    background-color: inherit;
+    color: inherit;
+    padding: 0px;
+    cursor: pointer;
+}
+.wcfusion_form_group input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+.wcfusion_form_group input[type="color"]::-webkit-color-swatch {
+    border-color: transparent;
+    border-radius: 0px;
+}
+
+#wcfusion_pdf_invoice_dashboard .wcfusion_form_group{
+    margin-top: 30px;
+    display: flex;
+    align-items: baseline;
+}
+#wcfusion_pdf_invoice_dashboard .wcfusion_form_group label{
+    color: #191D23;
+    padding: 0px 15px;
+    font-size: 16px;
+}
+.label_title {
+    width: 25%;
+}
+.label_content.content_border {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+#wcfusion_pdf_invoice_dashboard .wcfusion_form_group .select2-container {
+    /*width: 60% !important;*/
+}
+#wcfusion_pdf_invoice_dashboard div.label_content {
+  width: 30%;
+}
+
+.wcfusion_module_item.color-piker label {
+    font-size: 16px;
+    display: block;
+}
+.top-space{
+    margin-top: 100px;
+}
+#wcfusion_pdf_invoice_dashboard div.label_content input[type="text"]{
+    padding: 12px 20px;
+    /*margin-top: 20px;*/
+    border-radius: 8px;
+    width: 100%;
+    border: 1px solid #BDCEF1;
+    color: #5b5b5bf5 !important;
+    font-size: 15px !important;
+}
+
+#wcfusion_pdf_invoice_dashboard div.label_content .wcfusion-textarea{
+    padding: 12px 20px;
+    border-radius: 8px;
+    width: 100%;
+    border: 1px solid #BDCEF1;
+    color: #5b5b5bf5 !important;
+    font-size: 15px !important;
+}
+
+#wcfusion_pdf_invoice_dashboard span.wp-color-result-text {
+    display: none;
+}
+.wp-core-ui #wcfusion_pdf_invoice_dashboard button.button{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 2.15384615;
+    min-height: 35px;
+    margin: 0 15px 0 0;
+    padding: 0px 0px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 5px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    width: 100px;
+}
+#wcfusion_pdf_invoice_dashboard div.label_content input[type="number"]{
+    width: 30%;
+    padding: 12px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 100%;
+    border: 1px solid #BDCEF1;
+    color: #5b5b5bf5 !important;
+    font-size: 15px !important;
+}
+#wcfusion_pdf_invoice_dashboard .wcfusion_module_item {
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    border: inherit;
+    width: 100%;
+}
+#wcfusion_pdf_invoice_dashboard .wcfusion_module_list_items {
+    padding: 0;
+    margin: 0px 0 0 0;
+    background: transparent;
+    display: flex;
+    column-gap: 0px;
+    row-gap: 5px;
+    flex-wrap: wrap;
+}
+#wcfusion_pdf_invoice_dashboard .wcfusion_module_list_items .wcfusion_module_item label.toggle_switch {
+    width: 23px;
+}
+
+.wcfusion-form-pdf-invoice .select2-container--default .select2-selection--multiple,
+.wcfusion-form-pdf-invoice .wcfusion_form_group .wcfusion_select_control {
+    padding: 12px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 100%;
+    border: 1px solid #BDCEF1;
+    color: #5b5b5bf5 !important;
+    font-size: 15px !important;
+}
+#wcfusion_pdf_invoice_dashboard .wcfusion_form_group label.cart-icon {
+    padding: 0px;
+}
+#wcfusion_pdf_invoice_dashboard div.label_content.color-piker {
+    width: 40%;
+}
+#wcfusion_pdf_invoice_dashboard div.label_content.color-piker .wcfusion_module_list_items .wcfusion_module_item>label {
+    padding: 0px;
+}
+/***************************************************
+    PDF INVOICE CUSTOMIZE STYLE 
+**************************************************/
+.wfpdf_invoice_customize-inner{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
+}
+
+/**** Default Style ****/
+.wfpdf_invc_clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.wfpdf_invc_row {
+  width: 100%;
+  display: block;
+}
+.wfpdf_invc_col_12 {
+  width: 100%;
+  display: block;
+}
+.wfpdf_invc_col_9 {
+    width: 70%;
+    display: block;
+}
+.wfpdf_invc_col_8 {
+  width: 66.666%;
+  display: block;
+}
+.wfpdf_invc_col_6 {
+  width: 50%;
+  display: block;
+}
+.wfpdf_invc_col_4 {
+  width: 33.333%;
+  display: block;
+}
+.wfpdf_invc_sidebar_right_4 {
+    width: 28%;
+    display: block;
+}
+.wfpdf_invc_col_3 {
+  width: 25%;
+  display: block;
+}
+.wfpdf_invc_col_2 {
+  width: 16.666%;
+  display: block;
+}
+.wfpdf_invc_float_left {
+  float: left;
+}
+.wfpdf_invc_float_right {
+  float: right;
+}
+.wfpdf_invc_text-left {
+  text-align: left;
+}
+.wfpdf_invc_text-center {
+  text-align: center;
+}
+.wfpdf_invc_text-right {
+  text-align: right;
+}
+.wfpdf_invc_text_bold {
+  font-weight: bold;
+}
+/**** Default Style End ****/
+.wcfusion_customize_pdf_invoice_topbar {
+    background: #F6F5FA;
+    box-shadow: 0px 2px 3px #F6F5FA;
+    padding: 0 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+/* woofusion pdf invoice customize left */
+.wcfusion_pdf_invoice_customize_left h4 {
+    color: #050505;
+    font-weight: 600;
+    font-size: 18px;
+}
+.wfpdf_invoice_container {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3%;
+    min-height: 500px;
+    background: #F6F5FA;
+    border: 1px solid #DDD8EE;
+}
+.wfpdf_invoice_main {
+    color: #202020;
+    font-size: 12px;
+    font-weight: 400;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 25px;
+    background: #fff;
+    height: auto;
+    position: relative;
+}
+.wfcpi_loader {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  background: #6E32C93D;
+  right: 0;
+  width: 100%;
+  bottom: 0;
+}
+.wfcpi_loader img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Header Top Area Style*/
+.wfpdf_invc_doc_title {
+  color: #6E32C9;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 22px;
+}
+/* Header Top Area Style End */
+/* Logo & Invoice Area Style */
+.wfpdf_company_logo_img {
+    width: 120px;
+    max-width: 100%;
+    height: 110px;
+}
+.wfpdf_invoice_data {
+  line-height: 16px;
+  font-size: 12px;
+  border: 0px solid #fff;
+}
+.wfpdf_invoice_number,
+.wfpdf_invoice_number_val {
+line-height: 18px;
+}
+.wfpdf_invoice_number {
+color: #000;
+font-size: 18px;
+font-weight: normal;
+height: auto;
+}
+/* Logo & Invoice Area Style End*/
+/* Address Area Style */
+.wfpdf_invc_hr {
+  height: 1px;
+  font-size: 0px;
+  padding: 0px;
+  background: #cccccc;
+  margin-bottom: 20px;
+}
+.wfpdf_address-field-header {
+  font-weight: bold;
+  font-size: 12px;
+  background: #F6F5FA;
+  color: #000;
+  padding: 7px;
+}
+.wfpdf_company_address,
+.wfpdf_billing_address,
+.wfpdf_shipping_address,
+.wfpi_email_phone {
+  padding: 0 15px;
+}
+.wfpdf_billing_address_val {
+  margin-top: 10px;
+}
+.wfpdf_billing_address_val ul,
+.wfpi_email_phone ul {
+  list-style: none;
+  padding: 0 0 0 7px;
+  margin: 0;
+}
+.wfpdf_billing_address_val ul li {
+  margin-bottom: 3px;
+}
+.wfpdf_company_address {
+  padding-left: 0;
+}
+.wfpdf_shipping_address {
+  padding-right: 0;
+}
+/* Address Area Style End*/
+/* Product and Price Area */
+.wfpdf_invc_product_table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0px;
+}
+.wfpdf_position_relative {
+  position: relative;
+}
+.wfpdf_invc_product_table_head {
+  color: #2e2e2e;
+  background: #F6F5FA;
+}
+.wfpdf_invc_product_table_head th {
+  height: 36px;
+  padding: 0px 5px;
+  font-size: .75rem;
+  text-align: start;
+  line-height: 10px;
+  border-bottom: solid 1px #cccccc;
+  border-top: solid 1px #cccccc;
+  font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
+  text-transform: uppercase;
+}
+.wfpdf_product_table_head_product {
+  width: 30%;
+}
+.wfpdf_product_table_head_total_price {
+  width: 15%;
+}
+.wfpdf_invc_product_table_body td {
+  padding: 5px 5px;
+  border-bottom: solid 1px #cccccc;
+  text-align: start;
+}
+.wfpdf_invc_product_table_body td,
+.wfpdf_invc_payment_summary_table_body td {
+  font-size: 12px;
+  line-height: 10px;
+}
+.wfpdf_invc_payment_summary_table {
+  margin-bottom: 10px;
+  width: 100%;
+  border-collapse: collapse;
+}
+.wfpdf_invc_payment_summary_table_body td {
+  padding: 5px 5px;
+  border: none;
+}
+.wfpdf_invc_product_table_body td,
+.wfpdf_invc_payment_summary_table_body td {
+  font-size: 12px;
+  line-height: 10px;
+}
+.wfpdf_right_column .wfpdf_invc_product_table {
+  width: 15%;
+}
+
+.wfpdf_payment_left_column {
+  width: 60%;
+}
+.wfpdf_payment_right_column {
+  width: 14%;
+}
+.wfpdf_product_table_payment_total {
+  border-collapse: collapse;
+}
+.wfpdf_product_table_payment_total td {
+  font-size: 13px;
+  color: #000;
+  height: 28px;
+  border-bottom: solid 1px #cccccc;
+  border-top: solid 1px #cccccc;
+}
+.wfpdf_product_table_payment_total td:nth-child(3) {
+  font-weight: bold;
+}
+/* Received Seal */
+.wfpdf_invc_received_seal {
+  position: absolute;
+  z-index: 10;
+  width: 130px;
+  border-radius: 5px;
+  font-size: 22px;
+  height: 40px;
+  line-height: 38px;
+  border: 3px solid #6E32C9;
+  color: #6E32C9;
+  font-weight: 700;
+  text-align: center;
+  transform: rotate(-45deg);
+  opacity: 0.5;
+  top: 85px;
+  left: 40%;
+}
+/* Product and Price Area End*/
+
+/* woofusion pdf invoice customize Right */
+
+.wcfusion_pdf_invoice_customize_sidebar .invoice_document_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    padding: 5px 15px;
+    background: #F6F5FA;
+    border: 1px solid #DDD8EE;
+    color: #050505;
+    min-height: 40px;
+    line-height: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.wfpi_customize_sidebar_toggle {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 25px;
+}
+
+.invoice_sidebar_switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    box-sizing: border-box;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+.slider::before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+  input:checked + .slider {
+    background-color: #6E32C9;
+  }
+
+  input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+/* Shipping Label Style */
+.wfpdf_invoice_container.wfpdf_shipping_label_container {
+  min-height: 0;
+}
+.wfpdf_shipping_label_header {
+  background: inherit;
+  padding: 0 0;
+}
+.wfpdf_shipping_label_val ul {
+  padding: 0;
+  margin-top: 5px;
+    list-style: none;
+}
+.wfpdf_shipping_label_val ul li {
+  margin-bottom: 1px;
+}
+.wfpdf_shipping_label_to {
+  margin-top: 15px;
+}
+.wfpdf_shipping_label_header,
+.shipping_label_email_tel {
+  font-weight: bold;
+}
+.wfpdf_shipping_label_data span {
+  margin-bottom: 2px;
+  display: inline-block;
+}
+
+.wfpdf_invoice_container .wfpdf_empty_content {
+    text-align: center;
+    margin-top: 25%;
+}
+
+.wfpdf_invoice_container .wfpdf_empty_content span {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.wfpdf_invc_footer {
+    text-align: center;
+}
+/*************************************************
+    PDF INVOICE STYLE 
+**************************************************/
+.wcfusion_module_list_items .wcfusion_module_item.wcfusion_invoice_input_label input {
+  margin-top: 1px;
+}
+.wcfusion_module_list_items .wcfusion_module_item.wcfusion_invoice_input_label label {
+  display: inline-block !important;
+  padding: 1.5px 3px 0 0 !important;
+  font-size: 15px !important;
+}
+
+.wcfusion_form_group.pdf_invoice_settings_bar.f-start {
+  align-items: flex-start !important;
+}

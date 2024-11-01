@@ -1,0 +1,513 @@
+
+
+.wcfusion_bogo_deal_module_list_header{
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 50px;
+    flex-direction: row;
+    column-gap: 10px;
+    box-shadow: 0 13px 22px -5px rgb(0 0 0 / 6%);
+}
+.wcfusion_bogo_deal_module_left_header p{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px;
+    position: relative;
+}
+.wcfusion_bogo_deal_module_left_header p span{
+    position: absolute;
+    top: 0;
+    right: -60px;
+    background: #6E32C9;
+    padding: 0px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.wcfusion_bogo_deal_module_right_header p{
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+.wcfusion_bogo_deal_module_right_header p a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    background: #f94017;
+    padding: 10px 25px;
+    border-radius: 3px;
+}
+
+.wcfusion_bogo_deal_single_module_title{
+    margin: 20px 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    border-bottom: 1px solid #DDD8EE;
+}
+.wcfusion_bogo_deal_single_module_title h2{
+    font-size: 30px;
+    line-height: 35px;
+    margin: 25px 0;
+}
+
+
+
+
+
+#wcfusion_bogo_deal_header button.wcfusion_save_btn{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #6E32C9;
+    padding: 13px 13px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    margin-left: 20px;
+}
+
+#wcfusion_bogo_deal_header button.wcfusion_save_btn:hover{
+    border:  1px solid #6E32C9;
+    background: transparent;
+    color: #6E32C9 ;
+}
+
+
+
+#wcfusion_bogo_deal_header button.wcfusion_add_btn{
+    cursor: pointer;
+    text-decoration: none;
+    padding: 13px 13px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+    margin-left: 20px;
+    color: #6E32C9 ;
+    border:  1px solid #6E32C9;
+    background: transparent;
+}
+
+#wcfusion_bogo_deal_header button.wcfusion_add_btn:hover{
+    border: 1px solid transparent;
+    background-color: #6E32C9;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+#wcfusion_bogo_deal_container {
+    padding: 50px 80px;
+}
+
+#wcfusion_bogo_deal_container .wcfusion_bogo_deal_loading{
+    height: 311px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wcfusion_bogo_deal_loader {
+    border: 8px solid #ffffff;
+    border-radius: 50%;
+    border-top: 8px solid #FF521D;
+    width: 70px;
+    height: 70px;
+    -webkit-animation: wcfusion_bogo_deal_loader_spin 2s linear infinite; /* Safari */
+    animation: wcfusion_bogo_deal_loader_spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes wcfusion_bogo_deal_loader_spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes wcfusion_bogo_deal_loader_spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+#wcfusion_bogo_deal_container .wcfusion_bogo_deal_no_rule{
+    height: 311px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#wcfusion_bogo_deal_container .wcfusion_bogo_deal_no_rule button{
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid #FF521D;
+    border-radius: 20px;
+    padding: 6px 8px;
+    color: #FF521D;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 139px;
+}
+
+
+
+
+
+#wcfusion_bogo_deal_container .wcfusion_bogo_deal_single_rule{
+    background: #FFFFFF;
+    padding: 37px 37px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+#wcfusion_bogo_deal_container .wcfusion_bogo_deal_single_rule .wcfusion_bogo_deal_top_form,
+#wcfusion_bogo_deal_container .wcfusion_bogo_deal_single_rule .wcfusion_bogo_deal_data_picker{
+    display: none;
+}
+#wcfusion_bogo_deal_container .wcfusion_bogo_deal_single_rule.maximized .wcfusion_bogo_deal_top_form{
+    display: flex;
+}
+
+#wcfusion_bogo_deal_container .wcfusion_bogo_deal_single_rule.maximized .wcfusion_bogo_deal_data_picker{
+    display: block;
+}
+
+.wcfusion_bogo_deal_intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#wcfusion_bogo_deal_container .wcfusion_bogo_deal_single_rule.maximized .wcfusion_bogo_deal_intro{
+    margin-bottom: 56px;
+}
+.wcfusion_bogo_deal_intro h2{
+    display: inline-block;
+    cursor: pointer;
+    color: #17161F;
+    font-size: 27px;
+    line-height: 27px;
+    margin: 0;
+    border: 0;
+    outline: 0px solid transparent;
+    background: url("../img/bogo_deal_rule_name_editor.svg") no-repeat;
+    background-size: 25px;
+    background-position-y: top;
+    padding-left: 35px;
+}
+.wcfusion_bogo_deal_intro h2:focus{
+    cursor: text;
+}
+
+
+.wcfusion_bogo_deal_intro .wcfusion_bogo_deal_actions{
+    display: flex;
+    align-items: center;
+}
+.wcfusion_bogo_deal_intro .wcfusion_bogo_deal_action_minimize,
+.wcfusion_bogo_deal_intro .wcfusion_bogo_deal_action_maximize{
+    display: none;
+    cursor: pointer;
+}
+
+.wcfusion_bogo_deal_intro .wcfusion_bogo_deal_action_minimize img,
+.wcfusion_bogo_deal_intro .wcfusion_bogo_deal_action_maximize img{
+    width: 17px;
+    height: 13px;
+    margin-right: 30px;
+}
+
+
+#wcfusion_bogo_deal_container .wcfusion_bogo_deal_single_rule .wcfusion_bogo_deal_action_minimize{
+    display: none;
+}
+#wcfusion_bogo_deal_container .wcfusion_bogo_deal_single_rule.maximized .wcfusion_bogo_deal_action_minimize{
+    display: block;
+}
+#wcfusion_bogo_deal_container .wcfusion_bogo_deal_single_rule .wcfusion_bogo_deal_action_maximize{
+    display: block;
+}
+#wcfusion_bogo_deal_container .wcfusion_bogo_deal_single_rule.maximized .wcfusion_bogo_deal_action_maximize{
+    display: none;
+}
+
+.wcfusion_bogo_deal_intro .wcfusion_bogo_deal_action_del{
+    cursor: pointer;
+    border: 1px solid #FF521D;
+    border-radius: 20px;
+    padding: 6px 8px;
+    color: #FF521D;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 105px;
+}
+
+.wcfusion_bogo_deal_intro .wcfusion_bogo_deal_action_del img{
+    width: 17px;
+    height: 17px;
+    margin-right: 6px;
+}
+
+
+
+
+
+.wcfusion_bogo_deal_top_form{
+    display: flex;
+    max-width: 800px;
+    column-gap: 50px;
+}
+
+.wcfusion_bogo_deal_top_form .wcfusion_form_group {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+}
+.wcfusion_bogo_deal_top_form .wcfusion_form_group label{
+    color: #191D23;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    display: block;
+}
+.wcfusion_bogo_deal_top_form .wcfusion_form_group input{
+    padding: 12px 20px;
+    margin-top: 20px;
+    background: #FFFFFF;
+    border: 1px solid #BDCEF1;
+    border-radius: 8px;
+    width: 100%;
+}
+.wcfusion_bogo_deal_top_form .wcfusion_form_group input:focus{
+    border-color: #6E32C9 !important;
+    box-shadow: 0 0 0 1px #6E32C9 !important;
+}
+.wcfusion_bogo_deal_top_form .wcfusion_form_group .wcfusion_select_control{
+    padding: 12px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 100%;
+    border: 1px solid #BDCEF1;
+    color:#5b5b5bf5 !important;
+    font-size: 15px !important;
+}
+.wcfusion_bogo_deal_top_form .wcfusion_form_group .select2-container {
+    width: auto !important;
+    display: block;
+    margin-top: 24px;
+}
+.wcfusion_bogo_deal_top_form .wcfusion_form_group .select2-container .select2-selection--single{
+    height: 50px;
+}
+.wcfusion_bogo_deal_top_form .wcfusion_form_group .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 50px;
+}
+.wcfusion_bogo_deal_top_form .wcfusion_form_group .select2-container--default .select2-selection--single .select2-selection__arrow {
+    top:13px;
+}
+.wcfusion_bogo_deal_top_form .wcfusion_form_group .select2-container--default .select2-selection--single,
+.wcfusion_bogo_deal_top_form .wcfusion_form_group .select2-container--open .select2-dropdown {
+    border: 1px solid #BDCEF1;
+    border-radius: 5px;
+}
+.wcfusion_bogo_deal_top_form .wcfusion_form_group .select2-container--default .select2-selection--single .select2-selection__arrow b:after {
+    position: relative;
+    content: "\f347";
+    font-family: "dashicons";
+    top: -11px;
+    left: -5px;
+    display: inline-block;
+    transition: all .3s;
+    color: #d3d0d0;
+    font-weight: 200;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.wcfusion_bogo_deal_top_form .wcfusion_form_group .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b:after{
+    transform: rotate(180deg);
+    left: -5px;
+    transition: all .3s;
+}
+.wcfusion_bogo_deal_top_form .wcfusion_form_group .select2-container--default .select2-selection--single .select2-selection__arrow b{
+    border-color: inherit;
+    border-style: inherit;
+    border-width: inherit;
+    height: 0;
+    left: inherit;
+    margin-left: inherit;
+    margin-top: inherit;
+    position: inherit;
+    top: inherit;
+    width: inherit;
+}
+
+
+.wcfusion_bogo_deal_data_picker{
+    max-width: 800px;
+    margin-top: 40px;
+}
+.wcfusion_bogo_deal_data_picker h3{
+    color: #191D23;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    display: block;
+}
+.wcfusion_bogo_deal_data_picker .wcfusion_bogo_deal_data_contents{
+    border: 1px solid #C1BBDA;
+    background: #F8F8F8;
+    border-radius: 4px;
+    padding: 34px;
+}
+
+
+
+
+.wcfusion_bogo_deal_data_contents .wcfusion_bogo_deal_data_add_more{
+    min-height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.wcfusion_bogo_deal_data_contents .wcfusion_bogo_deal_data_add_more img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+.wcfusion_bogo_deal_product_selection_row{
+    display: flex;
+    column-gap: 30px;
+    align-items: end;
+}
+
+
+.wcfusion_bogo_deal_product_selection_row .wcfusion_remove_field{
+    margin-bottom: 7px;
+}
+
+.wcfusion_bogo_deal_product_selection_row .wcfusion_remove_field img{
+    width: 35px;
+    height: 35px;
+}
+
+
+.wcfusion_bogo_deal_product_selection_row .wcfusion_form_group {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+}
+.wcfusion_bogo_deal_product_selection_row .wcfusion_form_group label{
+    color: #191D23;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    display: block;
+}
+.wcfusion_bogo_deal_product_selection_row .wcfusion_form_group input{
+    padding: 12px 20px;
+    margin-top: 20px;
+    background: #FFFFFF;
+    border: 1px solid #BDCEF1;
+    border-radius: 8px;
+    width: 100%;
+}
+.wcfusion_bogo_deal_product_selection_row .wcfusion_form_group input:focus{
+    border-color: #6E32C9 !important;
+    box-shadow: 0 0 0 1px #6E32C9 !important;
+}
+.wcfusion_bogo_deal_product_selection_row .wcfusion_form_group .wcfusion_select_control{
+    padding: 12px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 100%;
+    border: 1px solid #BDCEF1;
+    color:#5b5b5bf5 !important;
+    font-size: 15px !important;
+}
+.wcfusion_bogo_deal_product_selection_row .wcfusion_form_group .select2-container {
+    width: auto !important;
+    display: block;
+    margin-top: 24px;
+}
+.wcfusion_bogo_deal_product_selection_row .wcfusion_form_group .select2-container .select2-selection--single{
+    height: 50px;
+}
+.wcfusion_bogo_deal_product_selection_row .wcfusion_form_group .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 50px;
+}
+.wcfusion_bogo_deal_product_selection_row .wcfusion_form_group .select2-container--default .select2-selection--single .select2-selection__arrow {
+    top:13px;
+}
+.wcfusion_bogo_deal_product_selection_row .wcfusion_form_group .select2-container--default .select2-selection--single,
+.wcfusion_bogo_deal_product_selection_row .wcfusion_form_group .select2-container--open .select2-dropdown {
+    border: 1px solid #BDCEF1;
+    border-radius: 5px;
+}
+.wcfusion_bogo_deal_product_selection_row .wcfusion_form_group .select2-container--default .select2-selection--single .select2-selection__arrow b:after {
+    position: relative;
+    content: "\f347";
+    font-family: "dashicons";
+    top: -11px;
+    left: -5px;
+    display: inline-block;
+    transition: all .3s;
+    color: #d3d0d0;
+    font-weight: 200;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.wcfusion_bogo_deal_product_selection_row .wcfusion_form_group .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b:after{
+    transform: rotate(180deg);
+    left: -5px;
+    transition: all .3s;
+}
+.wcfusion_bogo_deal_product_selection_row .wcfusion_form_group .select2-container--default .select2-selection--single .select2-selection__arrow b{
+    border-color: inherit;
+    border-style: inherit;
+    border-width: inherit;
+    height: 0;
+    left: inherit;
+    margin-left: inherit;
+    margin-top: inherit;
+    position: inherit;
+    top: inherit;
+    width: inherit;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,248 @@
+/** url coupon master style **/
+.wcfusion_url_coupon_module_list_header{
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 50px;
+    flex-direction: row;
+    column-gap: 10px;
+    box-shadow: 0 13px 22px -5px rgb(0 0 0 / 6%);
+}
+.wcfusion_url_coupon_module_left_header p{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px;
+    position: relative;
+}
+.wcfusion_url_coupon_module_left_header p span{
+    position: absolute;
+    top: 0;
+    right: -60px;
+    background: #6E32C9;
+    padding: 0px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+}
+.wcfusion_url_coupon_module_right_header p{
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+.wcfusion_url_coupon_module_right_header p a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    background: #f94017;
+    padding: 10px 25px;
+    border-radius: 3px;
+}
+
+.wcfusion_url_coupon_single_module_title{
+    margin: 20px 53px 0px 53px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    border-bottom: 1px solid #DDD8EE;
+}
+
+.wcfusion_url_coupon_single_module_title h2{
+    font-size: 30px;
+    line-height: 35px;
+    margin: 25px 0;
+}
+#wcfusion_url_coupon_container {
+    padding: 50px 50px;
+}
+
+/*table style*/
+.url_coupon .tablenav {
+    height: 70px;
+}
+.wp-core-ui .url_coupon select{
+    padding: 7px 15px;
+    border-color: #BDCEF1;
+}
+.wp-core-ui .url_coupon .button,
+.wp-core-ui .url_coupon .button-primary,
+.wp-core-ui .url_coupon .button-secondary {
+    font-size: 14px;
+    padding: 6px 20px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #BDCEF1;
+    -webkit-appearance: none;
+}
+.url_coupon input[type=color],
+.url_coupon input[type=date],
+.url_coupon input[type=datetime-local],
+.url_coupon input[type=datetime],
+.url_coupon input[type=email],
+.url_coupon input[type=month],
+.url_coupon input[type=number],
+.url_coupon input[type=password],
+.url_coupon input[type=search],
+.url_coupon input[type=tel],
+.url_coupon input[type=text],
+.url_coupon input[type=time],
+.url_coupon input[type=url],
+.url_coupon input[type=week],
+.url_coupon select,
+.url_coupon textarea {
+    box-shadow: 0 0 0 transparent;
+    padding: 4px 10px;
+    border-radius: 4px;
+    border: 1px solid #BDCEF1;
+    background-color: #fff;
+    color: #2c3338;
+}
+.url_coupon table.widefat {
+    border: 1px solid #BDCEF1;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+    border-radius: 5px;
+}
+.url_coupon .widefat thead th,
+.url_coupon .widget .widget-top {
+    line-height: 2.4em;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+}
+.url_coupon .widefat td{
+    font-size: 14px;
+    line-height: unset;
+    text-align: center;
+    word-wrap: normal;
+}
+table.dataTable tbody th, 
+table.dataTable tbody td {
+    padding: 17px 10px;
+    vertical-align: middle;
+}
+.url_coupon .alternate,
+.url_coupon .striped>tbody>:nth-child(odd),
+.url_coupon ul.striped>:nth-child(odd) {
+    background-color: #a7bce54d;
+}
+.url_coupon .widefat tbody th.check-column{
+    padding: 20px 0 0 3px;
+}
+.url_coupon .widefat thead td, 
+.url_coupon .widefat thead th {
+    border-bottom: 1px solid #BDCEF1;
+    line-height: unset;
+    word-wrap: normal;
+}
+.url_coupon .dashicons,
+.url_coupon .dashicons-before:before {
+    height: 30px;
+    font-size: 16px;
+    line-height: 37px;
+}
+.url_coupon table.dataTable {
+    width: 100% !important;
+    margin-bottom: 30px;
+}
+.url_coupon table.dataTable .pdl10{
+    padding-left: 10px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #333 !important;
+    border: 1px solid #BDCEF1;
+}
+.url_coupon table.dataTable .text-success{
+    color: #fff;
+    font-weight: 600;
+    background: green;
+    padding: 2px 15px;
+    border-radius: 3px;
+}
+.url_coupon table.dataTable .text-warning{
+    color: #fff;
+    font-weight: 600;
+    background: #FF4A62;
+    padding: 2px 15px;
+    border-radius: 3px;
+}
+.url_coupon .striped>tbody>:nth-child(even) span.wfaac_action_icons span.url_coupon a.wfaac-btn-warning .dashicons,
+.url_coupon .striped>tbody>:nth-child(odd) span.wfaac_action_icons span.url_coupon a.wfaac-btn-warning .dashicons {
+    color: red;
+}
+.url_coupon .striped>tbody>:nth-child(odd) span.wfaac_action_icons span.url_coupon a.wfaac-btn-success .dashicons,
+.url_coupon .striped>tbody>:nth-child(even) span.wfaac_action_icons span.url_coupon a.wfaac-btn-success .dashicons {
+    color: green;
+}
+.url_coupon .striped>tbody>:nth-child(odd) span.wfaac_action_icons span.url_coupon a{
+    background: #fff;
+    padding: 3px 8px;
+    border-radius: 2px;
+    margin-left: 5px;
+}
+.url_coupon .striped>tbody>:nth-child(even) span.wfaac_action_icons span.url_coupon a{
+    background: #EEF3FE;
+    padding: 3px 8px;
+    border-radius: 2px;
+    margin-left: 5px;
+}
+.url_coupon .striped>tbody>:nth-child(odd) span.wfaac_action_icons .wfaac_edit a{
+    background: transparent;
+    padding: 3px 8px;
+    border-radius: 2px;
+}
+.url_coupon .striped>tbody>:nth-child(even) span.wfaac_action_icons .wfaac_edit a{
+    background: transparent;
+    padding: 3px 8px;
+    border-radius: 2px;
+}
+#wcfusion_url_coupon_container .url_filter {
+    display: flex;
+}
+#wcfusion_url_coupon_container .url_filter select {
+    width: 70px;
+}
+#wcfusion_url_coupon_container .url_filter .per_page {
+    margin-right: 8px;
+}
+#wcfusion_url_coupon_container .per_page p {
+    font-size: 16px;
+    margin: 10px 0px;
+}
+#wcfusion_url_coupon_container div#wcfusion_url_coupon_table_info {
+    display: none;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #fff !important;
+    border: 1px solid #6E32C9;
+    background: #6E32C9;
+    border-radius: 5px;
+}
+#wcfusion_url_coupon_container .tablenav .actions {
+    margin-right: 40px;
+    padding: inherit;
+}
+.dashicons.url-coupon-edit-icon.dashicons-edit {
+    color: #6E32C9;
+    background: #F2E4F9;
+    font-size: 20px;
+    width: 26px;
+    height: 23px;
+    line-height: 24px;
+    text-align: center;
+    display: inline-block;
+    padding: 3px;
+    border-radius: 5px;
+}
+tbody tr.odd td .row-action .wfaac_action_icons .wfaac_edit a span.dashicons.url-coupon-edit-icon.dashicons-edit {
+    background: #FFFFFF !important;
+}

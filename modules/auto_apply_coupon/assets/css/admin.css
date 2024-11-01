@@ -1,0 +1,372 @@
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.eot?20746471');
+    src: url('../font/fontello.eot?20746471#iefix') format('embedded-opentype'),
+    url('../font/fontello.woff?20746471') format('woff'),
+    url('../font/fontello.ttf?20746471') format('truetype'),
+    url('../font/fontello.svg?20746471#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.wcfusion_auto_apply_coupon_module_list_header{
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 50px;
+    flex-direction: row;
+    column-gap: 10px;
+    box-shadow: 0 13px 22px -5px rgb(0 0 0 / 6%);
+}
+.wcfusion_auto_apply_coupon_module_left_header p{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px;
+    position: relative;
+}
+.wcfusion_auto_apply_coupon_module_left_header p span{
+    position: absolute;
+    top: 0;
+    right: -60px;
+    background: #6E32C9;
+    padding: 0px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.wcfusion_auto_apply_coupon_module_right_header p{
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+.wcfusion_auto_apply_coupon_module_right_header p a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    background: #f94017;
+    padding: 10px 25px;
+    border-radius: 3px;
+}
+
+.wcfusion_auto_apply_coupon_single_module_title{
+    margin: 20px 53px 0px 53px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    border-bottom: 1px solid #DDD8EE;
+}
+.wcfusion_auto_apply_coupon_single_module_title h2{
+    font-size: 30px;
+    line-height: 35px;
+    margin: 25px 0;
+} /**end header */
+
+
+#wcfusion_auto_apply_coupon_container {
+    padding: 50px 50px;
+}
+ /*table style*/
+.auto_apply_coupon .tablenav {
+    height: 70px;
+}
+.wp-core-ui .auto_apply_coupon select{
+    padding: 7px 15px;
+    border-color: #BDCEF1;
+}
+.wp-core-ui .auto_apply_coupon .button,
+.wp-core-ui .auto_apply_coupon .button-primary,
+.wp-core-ui .auto_apply_coupon .button-secondary {
+    font-size: 14px;
+    padding: 6px 20px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #BDCEF1;
+    -webkit-appearance: none;
+}
+.auto_apply_coupon input[type=color],
+.auto_apply_coupon input[type=date],
+.auto_apply_coupon input[type=datetime-local],
+.auto_apply_coupon input[type=datetime],
+.auto_apply_coupon input[type=email],
+.auto_apply_coupon input[type=month],
+.auto_apply_coupon input[type=number],
+.auto_apply_coupon input[type=password],
+.auto_apply_coupon input[type=search],
+.auto_apply_coupon input[type=tel],
+.auto_apply_coupon input[type=text],
+.auto_apply_coupon input[type=time],
+.auto_apply_coupon input[type=url],
+.auto_apply_coupon input[type=week],
+.auto_apply_coupon select,
+.auto_apply_coupon textarea {
+    box-shadow: 0 0 0 transparent;
+    padding: 4px 10px;
+    border-radius: 4px;
+    border: 1px solid #BDCEF1;
+    background-color: #fff;
+    color: #2c3338;
+}
+.auto_apply_coupon table.widefat {
+    border: 1px solid #BDCEF1;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+    border-radius: 5px;
+}
+.auto_apply_coupon .widefat thead th,
+.auto_apply_coupon .widget .widget-top {
+    /* line-height: 2.4em; */
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+}
+.auto_apply_coupon .widefat td{
+    font-size: 14px;
+    line-height: unset;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 10px;
+}
+.auto_apply_coupon .alternate,
+.auto_apply_coupon .striped>tbody>:nth-child(odd),
+.auto_apply_coupon ul.striped>:nth-child(odd) {
+    background-color: #a7bce54d;
+}
+.auto_apply_coupon .widefat tbody th.check-column{
+    padding: 20px 0 0 3px;
+}
+.auto_apply_coupon .widefat thead td,
+.auto_apply_coupon .widefat thead th {
+    border-bottom: 1px solid #BDCEF1;
+}
+.auto_apply_coupon .dashicons,
+.auto_apply_coupon .dashicons-before:before {
+    height: 30px;
+    font-size: 16px;
+    line-height: 37px;
+}
+
+.auto_apply_coupon table.dataTable {
+    width: 100% !important;
+    margin-bottom: 30px;
+}
+
+.auto_apply_coupon table.dataTable .pdl10{
+    padding-left: 10px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #333 !important;
+    border: 1px solid #BDCEF1;
+}
+.auto_apply_coupon table.dataTable .text-success{
+    color: #fff;
+    font-weight: 600;
+    background: green;
+    padding: 2px 15px;
+    border-radius: 3px;
+}
+.auto_apply_coupon table.dataTable .text-warning{
+    color: #fff;
+    font-weight: 600;
+    background: #FF4A62;
+    padding: 2px 15px;
+    border-radius: 3px;
+}
+.auto_apply_coupon .striped>tbody>:nth-child(even) span.wfaac_action_icons span.auto_coupon_apply a.wfaac-btn-warning .dashicons,
+.auto_apply_coupon .striped>tbody>:nth-child(odd) span.wfaac_action_icons span.auto_coupon_apply a.wfaac-btn-warning .dashicons {
+    color: red;
+}
+.auto_apply_coupon .striped>tbody>:nth-child(odd) span.wfaac_action_icons span.auto_coupon_apply a.wfaac-btn-success .dashicons,
+.auto_apply_coupon .striped>tbody>:nth-child(even) span.wfaac_action_icons span.auto_coupon_apply a.wfaac-btn-success .dashicons {
+    color: green;
+}
+.auto_apply_coupon .striped>tbody>:nth-child(even) span.wfaac_action_icons span.auto_coupon_apply a,
+.auto_apply_coupon .striped>tbody>:nth-child(odd) span.wfaac_action_icons span.auto_coupon_apply a{
+    /*background: #fff;*/
+    padding: 5px 5px;
+    border-radius: 2px;
+    margin-left: 5px;
+}
+.auto_apply_coupon .striped>tbody>:nth-child(even) span.wfaac_action_icons .wfaac_edit a,
+.auto_apply_coupon .striped>tbody>:nth-child(odd) span.wfaac_action_icons .wfaac_edit a{
+    /*background: #fff;*/
+    padding: 5px 5px;
+    border-radius: 2px;
+    line-height: 0;
+}
+.auto_apply_coupon .btn-disabled{
+    cursor: not-allowed !important;
+}
+span.wfaac_action_icons .demo-icon {
+    font-size: 20px;
+}
+/** for popup */
+.auto_apply_coupon .wcfusion_popup {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #efeafede;
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+}
+.auto_apply_coupon .wcfusion_popup_open{
+    position: absolute;
+    opacity: 1;
+    visibility: visible;
+}
+.auto_apply_coupon .d_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.auto_apply_coupon .successes_message p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6E32C9;
+    margin: 0;
+    line-height: 35px;
+}
+.auto_apply_coupon .successes_message{
+    display: block;
+}
+.auto_apply_coupon .wcfusion_popup_inar{
+    position: absolute;
+    background: #FFFFFF;
+    padding: 80px 40px 80px 40px;
+    border-radius: 15px;
+    width: 400px;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 15%);
+}
+.auto_apply_coupon .successes_message p {
+    margin-bottom: 40px;
+}
+.auto_apply_coupon .successes_message a {
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 17px;
+    color: #000000;
+}
+.auto_apply_coupon .successes_message a:hover {
+    color: #6E32C9;
+}
+.auto_apply_coupon .successes_message a span {
+    margin-right: 10px;
+}
+.auto_apply_coupon .wcfusion_popup_inar .icon-cross {
+    position: absolute;
+    top: -13px;
+    right: -21px;
+    font-size: 30px;
+    color: #000000;
+    cursor: pointer;
+    background: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 15%);
+}
+
+.auto_apply_coupon .wcfusion-btn-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.auto_apply_coupon .wcfusion-btn-danger {
+    border-radius: 5px;
+    padding: 14px 27px;
+    background: #FF521D;
+    border: 1px solid #FF521D;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.auto_apply_coupon .wcfusion-btn-success {
+    border-radius: 5px;
+    padding: 14px 27px;
+    background: #2e9504;
+    border: 1px solid #389905;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.auto_apply_coupon .wcfusion-btn-danger:hover,
+.auto_apply_coupon .wcfusion-btn-success:hover{
+    text-decoration: none;
+    background: #fff;
+    transition: 1s;
+    color: #333;
+}
+.tablenav .actions { 
+    display: flex;
+}
+.per_page {
+    margin-right: 10px;
+}
+div#wcfusion_auto_apply_coupon_table_info {
+    display: none;
+}
+
+/* Auto Apply Coupon Icons Styles */
+
+.dashicons.dash-plus-icon.dashicons-plus-alt2,
+.demo-icon.dash-trash-icon.icon-trash,
+.dashicons.dash-edit-icon.dashicons-edit {
+    font-size: 16px;
+    width: 26px;
+    height: 23px;
+    line-height: 24px;
+    text-align: center;
+    display: inline-block;
+    padding: 3px;
+    border-radius: 5px;
+} 
+.dashicons.dash-edit-icon.dashicons-edit {
+    color: #6E32C9;
+    background: #F2E4F9;
+    font-size: 20px;
+    width: 26px;
+    height: 23px;
+    line-height: 24px;
+}
+.demo-icon.dash-trash-icon.icon-trash {
+    color: #FF4A62;
+    background: #FFDBDF;
+    margin-right: 0;
+}
+.dashicons.dash-plus-icon.dashicons-plus-alt2 {
+    color: #000000 !important;
+    background: #FFFFFF;
+    font-weight: bold;
+}
+.auto_coupon_apply a:focus,
+.wfaac_edit a:focus {
+    box-shadow: none;
+}
+tbody tr.even td .row-action .wfaac_action_icons .auto_coupon_apply a span.dashicons.dash-plus-icon.dashicons-plus-alt2 {
+    background: #EEF3FE  !important;
+}
+tbody tr.odd td .row-action .wfaac_action_icons .wfaac_edit a span.dashicons.dash-edit-icon.dashicons-edit {
+    background: #FFFFFF !important;
+}
+tbody tr.odd td .row-action .wfaac_action_icons .auto_coupon_apply a i.demo-icon.dash-trash-icon.icon-trash {
+    background: #FFFFFF !important;
+}

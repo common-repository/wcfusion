@@ -1,0 +1,355 @@
+.wcfusion_product_sticky_bar_module_list_header{
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 50px;
+    flex-direction: row;
+    column-gap: 10px;
+    box-shadow: 0 13px 22px -5px rgb(0 0 0 / 6%);
+}
+.wcfusion_product_sticky_bar_module_left_header p{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px;
+    position: relative;
+}
+.wcfusion_product_sticky_bar_module_left_header p span{
+    position: absolute;
+    top: 0;
+    right: -60px;
+    background: #6E32C9;
+    padding: 0px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+}
+.wcfusion_product_sticky_bar_module_right_header p{
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+.wcfusion_product_sticky_bar_module_right_header p a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    background: #f94017;
+    padding: 10px 25px;
+    border-radius: 3px;
+}
+.wcfusion_product_sticky_bar_single_module_title{
+    margin: 20px 53px 0px 53px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    border-bottom: 1px solid #DDD8EE;
+}
+.wcfusion_product_sticky_bar_single_module_title h2{
+    font-size: 30px;
+    line-height: 35px;
+    margin: 25px 0;
+}
+
+#wcfusion_product_sticky_bar_container {
+    padding: 50px 50px;
+}
+
+/*Product Sticky Bar Style*/
+.product_sticky_bar_left_content {
+    width: 20%;
+}
+.product_sticky_bar_right_content {
+    width: 80%;
+    background-color: #fff;
+    padding: 50px 60px;
+}
+.sticky_bar_data_tabs .tab_item{
+    padding: 10px 56px;
+    cursor: pointer;
+    border-bottom: 1px solid #DDD8EE;
+    border-left: 4px solid transparent;
+    transition: .3s;
+}
+.sticky_bar_data_tabs {
+    border-top: 1px solid #ccc;
+}
+.sticky_bar_data_tabs .tab_item.tab_item_active{
+    background-color: #FFFF;
+    border-left: 4px solid #6E32C9;
+    transition: .3s;
+}
+.sticky_bar_data_tabs .tab_item h3{
+    color: #050505;
+    font-weight: 600;
+    font-size: 18px;
+}
+.sticky_bar_data_tabs .tab_item.tab_item_active h3{
+    color: #6E32C9;
+}
+button.product_sticky_save_btn{
+    text-decoration: none;
+    background-color: #6E32C9;
+    padding: 17px 30px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+button.product_sticky_save_btn:hover{
+    border: 1px solid #6E32C9;
+    background: transparent;
+    color: #6E32C9;
+    cursor: pointer;
+}
+.product_sticky_btn {
+    text-align: right;
+    margin-top: 30px;
+}
+.wcfusion_form_group input[type=color] {
+    border: inherit;
+    margin: 0px;
+    height: 40px;
+    width: 70px;
+    box-shadow: inherit;
+    border-radius: inherit;
+    background-color: inherit;
+    color: inherit;
+    padding: 0px;
+    cursor: pointer;
+}
+.wcfusion_form_group input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+.wcfusion_form_group input[type="color"]::-webkit-color-swatch {
+    border-color: transparent;
+    border-radius: 0px;
+}
+
+#wcfusion_product_sticky_bar_dashboard .wcfusion_form_group{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.f-baseline {
+    align-items: baseline !important;
+}
+#wcfusion_product_sticky_bar_dashboard .wcfusion_form_group label{
+    color: #191D23;
+    padding: 0px 15px;
+}
+.label_title {
+    width: 25%;
+}
+.label_content.content_border {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+#wcfusion_product_sticky_bar_dashboard .wcfusion_form_group .select2-container {
+    width: 50% !important;
+}
+#wcfusion_product_sticky_bar_dashboard .sticky_settings_bar div.label_content {
+    width: 50%;
+}
+#wcfusion_product_sticky_bar_dashboard .wcfusion_module_item {
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    border: inherit;
+}
+#wcfusion_product_sticky_bar_dashboard .wcfusion_module_list_items {
+    padding: 0;
+    margin: 0px 0 0 0;
+    background: transparent;
+    display: flex;
+    column-gap: 0px;
+    row-gap: 5px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#wcfusion_product_sticky_bar_dashboard .wcfusion_module_list_items .wcfusion_module_item label.toggle_switch {
+    width: 23px;
+}
+
+
+/*-- start module dashboard --*/
+#wcfusion_product_sticky_bar_dashboard .d-block{
+    display: block;
+}
+#wcfusion_product_sticky_bar_dashboard .select2-container--default .select2-selection--multiple .select2-selection__choice{
+    padding: 5px;
+    padding-left: 20px;
+}
+#wcfusion_product_sticky_bar_dashboard .select2-container--default .select2-selection--multiple .select2-selection__choice__remove{
+    top: 3px;
+}
+#wcfusion_product_sticky_bar_dashboard .select2-container--default .select2-selection--multiple,
+#wcfusion_product_sticky_bar_dashboard .wcfusion_form_group .wcfusion_select_control{
+    padding: 12px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 100%;
+    border: 1px solid #BDCEF1;
+    color:#5b5b5bf5 !important;
+    font-size: 15px !important;
+}
+#wcfusion_product_sticky_bar_dashboard .wcfusion_form_group option {
+    font-size: 15px;
+}
+
+/* Start Single module sticky bar */
+#wcfusion_product_sticky_bar_dashboard {
+    padding: 30px 0px;
+    border-radius: 10px;
+    padding-top: 10px;
+    position: relative;
+}
+#wcfusion_product_sticky_bar_dashboard .content_wrapper{
+    display: flex;
+    padding-top: 5px;
+}
+
+#wcfusion_product_sticky_bar_dashboard .coupon_data_title {
+    margin-bottom: 20px;
+}
+#wcfusion_product_sticky_bar_dashboard .coupon_data_title h2{
+    color: #1D2327;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+}
+#wcfusion_product_sticky_bar_dashboard .product_sticky_bar_content_body {
+    width: 100%;
+    background-color: #F3F0FF;
+    border-radius: 20px;
+    padding: 30px 50px 50px 50px;
+}
+#wcfusion_product_sticky_bar_dashboard .tab_body_title{
+    border-bottom: 1px solid #E3E0ED;
+    padding-bottom: 15px;
+}
+#wcfusion_product_sticky_bar_dashboard .tab_body_title h1{
+    font-size: 28px;
+    color: #6E32C9;
+    font-weight: 700;
+}
+#wcfusion_product_sticky_bar_dashboard #tab_body_form .wcfusion_form_group .wcfusion_text_control {
+    width: 50%;
+}
+#wcfusion_product_sticky_bar_dashboard #tab_body_form .wcfusion_form_group .wcfusion_select_control {
+    width: 50% !important;
+    max-width: 50%;
+    color:#5b5b5bf5 !important;
+    font-size: 15px !important;
+}
+#wcfusion_product_sticky_bar_dashboard #tab_body_form .wcfusion_form_group .wcfusion_select_control option {
+    margin-top: 20px;
+}
+
+#wcfusion_product_sticky_bar_dashboard #tab_body_form .wcfusion_form_group .wcfusion_coupon_checkbox {
+    margin-top: 20px;
+}
+#wcfusion_product_sticky_bar_dashboard #tab_body_form .wcfusion_form_group .wcfusion_coupon_checkbox .description{
+    font-size: 14px;
+    line-height: 25px;
+}
+#wcfusion_product_sticky_bar_dashboard #tab_body_form .wcfusion_form_group .wcfusion_select_control {
+    margin-top: 15px;
+}
+#wcfusion_product_sticky_bar_dashboard #tab_body_form .wcfusion_form_group{
+    margin-top: 38px;
+}
+#wcfusion_product_sticky_bar_dashboard .coupon_generate_top_form {
+    background-color: #ffff;
+    padding: 30px 2px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+}
+#wcfusion_product_sticky_bar_dashboard input[type=radio]:checked {
+    border: 1px solid #316BFF;
+}
+#wcfusion_product_sticky_bar_dashboard .wcfusion_form_group input[type=radio]:checked::before {
+      width: 10px;
+      height: 10px;
+      top: 50%;
+      right: 50%;
+      transform: translate(19%,19%);
+      margin: 0;
+      line-height: 0;
+      background-color: #316BFF;
+  }
+#wcfusion_product_sticky_bar_dashboard .select2-container {
+    display: block;
+}
+
+#wcfusion_product_sticky_bar_dashboard .select2-container .select2-selection--single{
+    height: 50px;
+}
+#wcfusion_product_sticky_bar_dashboard .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 50px;
+}
+#wcfusion_product_sticky_bar_dashboard .select2-container--default .select2-selection--single .select2-selection__arrow {
+    top:13px;
+}
+#wcfusion_product_sticky_bar_dashboard .select2-container--default .select2-selection--single,
+#wcfusion_product_sticky_bar_dashboard .select2-container--open .select2-dropdown {
+    border: 1px solid #BDCEF1;
+    border-radius: 5px;
+}
+#wcfusion_product_sticky_bar_dashboard .select2-container--default .select2-selection--single .select2-selection__arrow b:after {
+    position: relative;
+    content: "\f347";
+    font-family: "dashicons";
+    top: -11px;
+    left: -5px;
+    display: inline-block;
+    transition: all .3s;
+    color: #d3d0d0;
+    font-weight: 200;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+#wcfusion_product_sticky_bar_dashboard .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b:after{
+    transform: rotate(180deg);
+    left: -5px;
+    transition: all .3s;
+}
+#wcfusion_product_sticky_bar_dashboard .select2-container--default .select2-selection--single .select2-selection__arrow b{
+    border-color: inherit;
+    border-style: inherit;
+    border-width: inherit;
+    height: 0;
+    left: inherit;
+    margin-left: inherit;
+    margin-top: inherit;
+    position: inherit;
+    top: inherit;
+    width: inherit;
+}
+#wcfusion_product_sticky_bar_dashboard .single_modules_bottom_form .psb_submit_btn_disabled,
+#wcfusion_product_sticky_bar_dashboard .single_modules_bottom_form .psb_submit_btn_disabled:hover {
+    background-color: #ccc;
+    border-color: #ddd;
+    color: #fff;
+    cursor: not-allowed;
+}
+
+#wcfusion_product_sticky_bar_dashboard .wfpsb_input{
+    padding: 12px 8px;
+    margin-top: 20px;
+    background: #FFFFFF;
+    border: 1px solid #BDCEF1;
+    border-radius: 8px;
+    width: 100%;
+}
